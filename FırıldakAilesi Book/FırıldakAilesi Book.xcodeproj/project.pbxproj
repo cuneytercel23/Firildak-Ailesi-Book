@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36037F1D2895927D005E3867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F1C2895927D005E3867 /* AppDelegate.swift */; };
+		36037F1F2895927D005E3867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F1E2895927D005E3867 /* SceneDelegate.swift */; };
+		36037F212895927D005E3867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F202895927D005E3867 /* ViewController.swift */; };
+		36037F242895927D005E3867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36037F222895927D005E3867 /* Main.storyboard */; };
+		36037F262895927E005E3867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36037F252895927E005E3867 /* Assets.xcassets */; };
+		36037F292895927E005E3867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36037F272895927E005E3867 /* LaunchScreen.storyboard */; };
+		36037F342895927E005E3867 /* F_r_ldakAilesi_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F332895927E005E3867 /* F_r_ldakAilesi_BookTests.swift */; };
+		36037F3E2895927E005E3867 /* F_r_ldakAilesi_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F3D2895927E005E3867 /* F_r_ldakAilesi_BookUITests.swift */; };
+		36037F402895927E005E3867 /* F_r_ldakAilesi_BookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F3F2895927E005E3867 /* F_r_ldakAilesi_BookUITestsLaunchTests.swift */; };
+		36037F4D289596A5005E3867 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F4C289596A5005E3867 /* DetailsVC.swift */; };
+		36037F4F28959C0A005E3867 /* Fırıldak Ailesi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36037F4E28959C0A005E3867 /* Fırıldak Ailesi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36037F302895927E005E3867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36037F112895927D005E3867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36037F182895927D005E3867;
+			remoteInfo = "FırıldakAilesi Book";
+		};
+		36037F3A2895927E005E3867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36037F112895927D005E3867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36037F182895927D005E3867;
+			remoteInfo = "FırıldakAilesi Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36037F192895927D005E3867 /* FırıldakAilesi Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FırıldakAilesi Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36037F1C2895927D005E3867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36037F1E2895927D005E3867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36037F202895927D005E3867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36037F232895927D005E3867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36037F252895927E005E3867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36037F282895927E005E3867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36037F2A2895927E005E3867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36037F2F2895927E005E3867 /* FırıldakAilesi BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FırıldakAilesi BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36037F332895927E005E3867 /* F_r_ldakAilesi_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F_r_ldakAilesi_BookTests.swift; sourceTree = "<group>"; };
+		36037F392895927E005E3867 /* FırıldakAilesi BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FırıldakAilesi BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36037F3D2895927E005E3867 /* F_r_ldakAilesi_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F_r_ldakAilesi_BookUITests.swift; sourceTree = "<group>"; };
+		36037F3F2895927E005E3867 /* F_r_ldakAilesi_BookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F_r_ldakAilesi_BookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36037F4C289596A5005E3867 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		36037F4E28959C0A005E3867 /* Fırıldak Ailesi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fırıldak Ailesi.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36037F162895927D005E3867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36037F2C2895927E005E3867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36037F362895927E005E3867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36037F102895927D005E3867 = {
+			isa = PBXGroup;
+			children = (
+				36037F1B2895927D005E3867 /* FırıldakAilesi Book */,
+				36037F322895927E005E3867 /* FırıldakAilesi BookTests */,
+				36037F3C2895927E005E3867 /* FırıldakAilesi BookUITests */,
+				36037F1A2895927D005E3867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36037F1A2895927D005E3867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36037F192895927D005E3867 /* FırıldakAilesi Book.app */,
+				36037F2F2895927E005E3867 /* FırıldakAilesi BookTests.xctest */,
+				36037F392895927E005E3867 /* FırıldakAilesi BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36037F1B2895927D005E3867 /* FırıldakAilesi Book */ = {
+			isa = PBXGroup;
+			children = (
+				36037F1C2895927D005E3867 /* AppDelegate.swift */,
+				36037F1E2895927D005E3867 /* SceneDelegate.swift */,
+				36037F202895927D005E3867 /* ViewController.swift */,
+				36037F4C289596A5005E3867 /* DetailsVC.swift */,
+				36037F4E28959C0A005E3867 /* Fırıldak Ailesi.swift */,
+				36037F222895927D005E3867 /* Main.storyboard */,
+				36037F252895927E005E3867 /* Assets.xcassets */,
+				36037F272895927E005E3867 /* LaunchScreen.storyboard */,
+				36037F2A2895927E005E3867 /* Info.plist */,
+			);
+			path = "FırıldakAilesi Book";
+			sourceTree = "<group>";
+		};
+		36037F322895927E005E3867 /* FırıldakAilesi BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				36037F332895927E005E3867 /* F_r_ldakAilesi_BookTests.swift */,
+			);
+			path = "FırıldakAilesi BookTests";
+			sourceTree = "<group>";
+		};
+		36037F3C2895927E005E3867 /* FırıldakAilesi BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36037F3D2895927E005E3867 /* F_r_ldakAilesi_BookUITests.swift */,
+				36037F3F2895927E005E3867 /* F_r_ldakAilesi_BookUITestsLaunchTests.swift */,
+			);
+			path = "FırıldakAilesi BookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36037F182895927D005E3867 /* FırıldakAilesi Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36037F432895927E005E3867 /* Build configuration list for PBXNativeTarget "FırıldakAilesi Book" */;
+			buildPhases = (
+				36037F152895927D005E3867 /* Sources */,
+				36037F162895927D005E3867 /* Frameworks */,
+				36037F172895927D005E3867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FırıldakAilesi Book";
+			productName = "FırıldakAilesi Book";
+			productReference = 36037F192895927D005E3867 /* FırıldakAilesi Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36037F2E2895927E005E3867 /* FırıldakAilesi BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36037F462895927E005E3867 /* Build configuration list for PBXNativeTarget "FırıldakAilesi BookTests" */;
+			buildPhases = (
+				36037F2B2895927E005E3867 /* Sources */,
+				36037F2C2895927E005E3867 /* Frameworks */,
+				36037F2D2895927E005E3867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36037F312895927E005E3867 /* PBXTargetDependency */,
+			);
+			name = "FırıldakAilesi BookTests";
+			productName = "FırıldakAilesi BookTests";
+			productReference = 36037F2F2895927E005E3867 /* FırıldakAilesi BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36037F382895927E005E3867 /* FırıldakAilesi BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36037F492895927E005E3867 /* Build configuration list for PBXNativeTarget "FırıldakAilesi BookUITests" */;
+			buildPhases = (
+				36037F352895927E005E3867 /* Sources */,
+				36037F362895927E005E3867 /* Frameworks */,
+				36037F372895927E005E3867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36037F3B2895927E005E3867 /* PBXTargetDependency */,
+			);
+			name = "FırıldakAilesi BookUITests";
+			productName = "FırıldakAilesi BookUITests";
+			productReference = 36037F392895927E005E3867 /* FırıldakAilesi BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36037F112895927D005E3867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					36037F182895927D005E3867 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					36037F2E2895927E005E3867 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 36037F182895927D005E3867;
+					};
+					36037F382895927E005E3867 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 36037F182895927D005E3867;
+					};
+				};
+			};
+			buildConfigurationList = 36037F142895927D005E3867 /* Build configuration list for PBXProject "FırıldakAilesi Book" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36037F102895927D005E3867;
+			productRefGroup = 36037F1A2895927D005E3867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36037F182895927D005E3867 /* FırıldakAilesi Book */,
+				36037F2E2895927E005E3867 /* FırıldakAilesi BookTests */,
+				36037F382895927E005E3867 /* FırıldakAilesi BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36037F172895927D005E3867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36037F292895927E005E3867 /* LaunchScreen.storyboard in Resources */,
+				36037F262895927E005E3867 /* Assets.xcassets in Resources */,
+				36037F242895927D005E3867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36037F2D2895927E005E3867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36037F372895927E005E3867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36037F152895927D005E3867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36037F212895927D005E3867 /* ViewController.swift in Sources */,
+				36037F4D289596A5005E3867 /* DetailsVC.swift in Sources */,
+				36037F1D2895927D005E3867 /* AppDelegate.swift in Sources */,
+				36037F1F2895927D005E3867 /* SceneDelegate.swift in Sources */,
+				36037F4F28959C0A005E3867 /* Fırıldak Ailesi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36037F2B2895927E005E3867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36037F342895927E005E3867 /* F_r_ldakAilesi_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36037F352895927E005E3867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36037F402895927E005E3867 /* F_r_ldakAilesi_BookUITestsLaunchTests.swift in Sources */,
+				36037F3E2895927E005E3867 /* F_r_ldakAilesi_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36037F312895927E005E3867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36037F182895927D005E3867 /* FırıldakAilesi Book */;
+			targetProxy = 36037F302895927E005E3867 /* PBXContainerItemProxy */;
+		};
+		36037F3B2895927E005E3867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36037F182895927D005E3867 /* FırıldakAilesi Book */;
+			targetProxy = 36037F3A2895927E005E3867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36037F222895927D005E3867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36037F232895927D005E3867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36037F272895927E005E3867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36037F282895927E005E3867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36037F412895927E005E3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36037F422895927E005E3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36037F442895927E005E3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 542DV5ZRQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FırıldakAilesi Book/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuneytercel.F-r-ldakAilesi-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36037F452895927E005E3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 542DV5ZRQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FırıldakAilesi Book/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuneytercel.F-r-ldakAilesi-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36037F472895927E005E3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 542DV5ZRQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuneytercel.F-r-ldakAilesi-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FırıldakAilesi Book.app/FırıldakAilesi Book";
+			};
+			name = Debug;
+		};
+		36037F482895927E005E3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 542DV5ZRQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuneytercel.F-r-ldakAilesi-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FırıldakAilesi Book.app/FırıldakAilesi Book";
+			};
+			name = Release;
+		};
+		36037F4A2895927E005E3867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 542DV5ZRQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuneytercel.F-r-ldakAilesi-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FırıldakAilesi Book";
+			};
+			name = Debug;
+		};
+		36037F4B2895927E005E3867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 542DV5ZRQS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuneytercel.F-r-ldakAilesi-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FırıldakAilesi Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36037F142895927D005E3867 /* Build configuration list for PBXProject "FırıldakAilesi Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36037F412895927E005E3867 /* Debug */,
+				36037F422895927E005E3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36037F432895927E005E3867 /* Build configuration list for PBXNativeTarget "FırıldakAilesi Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36037F442895927E005E3867 /* Debug */,
+				36037F452895927E005E3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36037F462895927E005E3867 /* Build configuration list for PBXNativeTarget "FırıldakAilesi BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36037F472895927E005E3867 /* Debug */,
+				36037F482895927E005E3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36037F492895927E005E3867 /* Build configuration list for PBXNativeTarget "FırıldakAilesi BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36037F4A2895927E005E3867 /* Debug */,
+				36037F4B2895927E005E3867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36037F112895927D005E3867 /* Project object */;
+}
